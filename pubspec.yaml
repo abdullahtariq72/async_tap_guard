@@ -1,0 +1,31 @@
+name: async_tap_guard
+description: >-
+  Prevent double taps on async actions in Flutter. Wraps any button or gesture
+  widget, exposes busy and error states, and avoids loading-indicator flicker.
+version: 0.1.0
+repository: https://github.com/abdullahtariq72/async_tap_guard
+issue_tracker: https://github.com/abdullahtariq72/async_tap_guard/issues
+topics:
+  - button
+  - async
+  - loading
+  - widget
+  - debounce
+
+screenshots:
+  - description: Example app with a guarded button while its action runs.
+    path: doc/busy.png
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  fake_async: ^1.3.3
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
